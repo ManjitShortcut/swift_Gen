@@ -1,0 +1,1524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		970597F8096BA8D1E5D02B98ADB18387 /* SwiftGen-iOS14.1 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1FA692C0AAC609B2BD49E9D524D49B99 /* Build configuration list for PBXAggregateTarget "SwiftGen-iOS14.1" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGen-iOS14.1";
+		};
+		B275628819432CFABED7CF8C4CFD2570 /* SwiftGen-iOS14.4 */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 485793F9F5480EE87A2ECF6B7F24C9CA /* Build configuration list for PBXAggregateTarget "SwiftGen-iOS14.4" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "SwiftGen-iOS14.4";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08E0D5FA09594CF6264E8284DA4870E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		11F3779CAF6919A64E6D5EE3479C42C0 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912513BE6E6522064C7221668C50B3D /* KeychainWrapper.swift */; };
+		200CA9CBF133AC678AAD2CA511B886F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2A245BA6C96D823D5E6C6DDDC9C078A2 /* Pods-ContactList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5D025F1CE413C6C21FEFFE9591C23C /* Pods-ContactList-dummy.m */; };
+		33EE5B1A7073A141917B7135A1545B57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D4A7D54ABC7FC068E277CBA750FE7AA /* Pods-ContactList-ContactListUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65C2FFE2C40F605F364CFDC3ABEBC624 /* Pods-ContactList-ContactListUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF245AAD9F9A92BB0E499584F1A6BDE /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534E0AF0C1A2AD70853201C9252F4FD /* KeychainItemAccessibility.swift */; };
+		5C2F49948395C3D43C21975E820B041F /* KeychainWrapperSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA21400FDD9B34D1AE848CA3291A9C1 /* KeychainWrapperSubscript.swift */; };
+		6A70214A94AC33F76D871F2A61D748FA /* Pods-ContactList-ContactListUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1D6BD0158ADA3340531A44471F5679 /* Pods-ContactList-ContactListUITests-dummy.m */; };
+		6B00248D3BFD9294BC3C17B04B81A1BF /* Pods-ContactListTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB0F144DB6B847C14FFE8CFC2E29B08 /* Pods-ContactListTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B359F1B83942DEFEBC774485BA566C4 /* KeychainWrapperSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA21400FDD9B34D1AE848CA3291A9C1 /* KeychainWrapperSubscript.swift */; };
+		719E5C58529BE8AC17BC2B5A98FEAAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7F3B10E84B281108B180AC5810CDD7ED /* SwiftKeychainWrapper-iOS14.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CBE283DD07D130C53BD4E2F56465CC /* SwiftKeychainWrapper-iOS14.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86C0D746B7094B20BE1739FDFC3415FB /* Pods-ContactList_MOCK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D558F1C33759529B65B1CE732EE578AA /* Pods-ContactList_MOCK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		875D6C1A07DEF55E443ADF89AA2AD285 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 10569083E657454CBF967FFC94EA6785 /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BA5D2AAAE83942E35A17DE91C302C82 /* SwiftKeychainWrapper-iOS14.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EBC5BFDB0813D582F0FCBA679274F6 /* SwiftKeychainWrapper-iOS14.1-dummy.m */; };
+		AABA142B5C8F6CBE987E6EB040A9E4B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B51CD89A634890701516F29F900DD3B4 /* SwiftKeychainWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 10569083E657454CBF967FFC94EA6785 /* SwiftKeychainWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB0358217AD6E5A8AC0CB0000F460A2 /* Pods-ContactList_MOCK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2435F5E754E7B449FB9E6DA63FEF18F /* Pods-ContactList_MOCK-dummy.m */; };
+		D42D4E1F3899123C50F93D0B645556CB /* Pods-ContactList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BCAE6084A19C172EBB4DD89F659C432 /* Pods-ContactList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAE7E40364D5D55404E775699C3ED654 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534E0AF0C1A2AD70853201C9252F4FD /* KeychainItemAccessibility.swift */; };
+		EC757D2B46B70C34EB7A6429F78D20FB /* SwiftKeychainWrapper-iOS14.4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85FCBB773E1787FFC977F7C7860B8134 /* SwiftKeychainWrapper-iOS14.4-dummy.m */; };
+		EEBDC183BE42A4743D687E97F68DDAB2 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D912513BE6E6522064C7221668C50B3D /* KeychainWrapper.swift */; };
+		F0F2BFA503788ABE42AEAFE79186A119 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F41691F03B66A71F6BB244E1F8369F43 /* Pods-ContactListTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B405CE724CF00931D01FB8D3EB841A1 /* Pods-ContactListTests-dummy.m */; };
+		FCD7D08A4DD4C23542F3E1264115442C /* SwiftKeychainWrapper-iOS14.4-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B1630EC594CDB765B5B05134E8C233 /* SwiftKeychainWrapper-iOS14.4-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07A33F5539A673C0730B1B6BD299A4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B275628819432CFABED7CF8C4CFD2570;
+			remoteInfo = "SwiftGen-iOS14.4";
+		};
+		0B8E33737816575892C9229FFD526236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80C56D67DD9173D475134B70A56E7E2F;
+			remoteInfo = "Pods-ContactList";
+		};
+		36155797B180285710602310A6B00988 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783E652C2915E53B8EFA4D6267ADAA2A;
+			remoteInfo = "SwiftKeychainWrapper-iOS14.1";
+		};
+		A2555C232A2FAF0BCBA6E5FA8EF553F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970597F8096BA8D1E5D02B98ADB18387;
+			remoteInfo = "SwiftGen-iOS14.1";
+		};
+		B2BCFBAB800A2D5DA5BD468EDBAC34B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970597F8096BA8D1E5D02B98ADB18387;
+			remoteInfo = "SwiftGen-iOS14.1";
+		};
+		B86694CCF617DCEA7CACC95488CA0F54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783E652C2915E53B8EFA4D6267ADAA2A;
+			remoteInfo = "SwiftKeychainWrapper-iOS14.1";
+		};
+		B98034A6009CAD53B5C8E4D26E83F1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 783E652C2915E53B8EFA4D6267ADAA2A;
+			remoteInfo = "SwiftKeychainWrapper-iOS14.1";
+		};
+		E1B179BCE700788A371F284CB3239910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C265D4732C96EAA41AB2C798F526E5B5;
+			remoteInfo = "SwiftKeychainWrapper-iOS14.4";
+		};
+		F80DEECA5BAFBB8B95DA2DFF2D762196 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 970597F8096BA8D1E5D02B98ADB18387;
+			remoteInfo = "SwiftGen-iOS14.1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B38907EC24D510E7475A9C8A5A1EF66 /* Pods-ContactList-ContactListUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactList-ContactListUITests.modulemap"; sourceTree = "<group>"; };
+		10569083E657454CBF967FFC94EA6785 /* SwiftKeychainWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftKeychainWrapper.h; path = SwiftKeychainWrapper/SwiftKeychainWrapper.h; sourceTree = "<group>"; };
+		1BB0F144DB6B847C14FFE8CFC2E29B08 /* Pods-ContactListTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactListTests-umbrella.h"; sourceTree = "<group>"; };
+		2521F23909C21BD89CB10D6B442EB914 /* Pods-ContactList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList.release.xcconfig"; sourceTree = "<group>"; };
+		2534E0AF0C1A2AD70853201C9252F4FD /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainItemAccessibility.swift; path = SwiftKeychainWrapper/KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		2BDE3E42A7A5D542B9B2B7139D043216 /* Pods-ContactListTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactListTests-Info.plist"; sourceTree = "<group>"; };
+		2FAF0CBC3EC7DDAD59EAC4C8BEEA5F7E /* Pods-ContactListTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactListTests.modulemap"; sourceTree = "<group>"; };
+		2FC0E362DFF9A0DBFEBDE426E51F825B /* Pods-ContactList-ContactListUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList-ContactListUITests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35826306079CB741272748834A69BFFC /* Pods-ContactList-ContactListUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactList-ContactListUITests-frameworks.sh"; sourceTree = "<group>"; };
+		382360496053BB653B240D88B446C6EB /* SwiftGen-iOS14.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftGen-iOS14.1.debug.xcconfig"; sourceTree = "<group>"; };
+		385A15BB74D7325D9B2E9521E51A9E12 /* SwiftKeychainWrapper-iOS14.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-iOS14.1-prefix.pch"; sourceTree = "<group>"; };
+		39EBC5BFDB0813D582F0FCBA679274F6 /* SwiftKeychainWrapper-iOS14.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftKeychainWrapper-iOS14.1-dummy.m"; sourceTree = "<group>"; };
+		3AABE290E82F90FC829DFD7384564674 /* Pods-ContactList-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactList-frameworks.sh"; sourceTree = "<group>"; };
+		4311F404C4299B791FEAB8E4890104A4 /* SwiftGen-iOS14.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftGen-iOS14.1.release.xcconfig"; sourceTree = "<group>"; };
+		43669D0F960F63C1FBDC9736C6E84E48 /* Pods-ContactList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList.debug.xcconfig"; sourceTree = "<group>"; };
+		4541D7ECF0F07651F0145D80DD816180 /* Pods-ContactListTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactListTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		463B0DF88C86EA8AA92AD98A8E563AA6 /* Pods_ContactList_MOCK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactList_MOCK.framework; path = "Pods-ContactList_MOCK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7301A17BACE325EAD1C2723FCCCD98 /* Pods-ContactList-ContactListUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList-ContactListUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B5D025F1CE413C6C21FEFFE9591C23C /* Pods-ContactList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactList-dummy.m"; sourceTree = "<group>"; };
+		4EE86EBD449BCE2069806202F93DA355 /* Pods-ContactList_MOCK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactList_MOCK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65C2FFE2C40F605F364CFDC3ABEBC624 /* Pods-ContactList-ContactListUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactList-ContactListUITests-umbrella.h"; sourceTree = "<group>"; };
+		6BCAE6084A19C172EBB4DD89F659C432 /* Pods-ContactList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactList-umbrella.h"; sourceTree = "<group>"; };
+		6F38257F2949B6E987273D585BE7000E /* Pods-ContactList-ContactListUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList-ContactListUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F38EDFA12525C8776FF0A5A3EA33CC8 /* Pods-ContactList-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList-Info.plist"; sourceTree = "<group>"; };
+		6F7D71B728DE4B5AEC24E930A9291821 /* Pods_ContactList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactList.framework; path = "Pods-ContactList.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D531F58F108C869FFA8CF71042E9FC /* Pods-ContactListTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactListTests-frameworks.sh"; sourceTree = "<group>"; };
+		72D7FB12AD86256F3C31D84244EEB306 /* Pods-ContactListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5A681501C3207DEC6795FCFCF011E1 /* Pods-ContactList_MOCK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ContactList_MOCK-frameworks.sh"; sourceTree = "<group>"; };
+		81BB0A4A3EFB516C420A98F2E9B73AF9 /* SwiftGen-iOS14.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftGen-iOS14.4.release.xcconfig"; path = "../SwiftGen-iOS14.4/SwiftGen-iOS14.4.release.xcconfig"; sourceTree = "<group>"; };
+		83B1630EC594CDB765B5B05134E8C233 /* SwiftKeychainWrapper-iOS14.4-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftKeychainWrapper-iOS14.4-umbrella.h"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-umbrella.h"; sourceTree = "<group>"; };
+		85FCBB773E1787FFC977F7C7860B8134 /* SwiftKeychainWrapper-iOS14.4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwiftKeychainWrapper-iOS14.4-dummy.m"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-dummy.m"; sourceTree = "<group>"; };
+		8F575BDDEE86C1CC5BC37DA09EFF10EE /* SwiftKeychainWrapper-iOS14.4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftKeychainWrapper-iOS14.4.debug.xcconfig"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4.debug.xcconfig"; sourceTree = "<group>"; };
+		9B405CE724CF00931D01FB8D3EB841A1 /* Pods-ContactListTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactListTests-dummy.m"; sourceTree = "<group>"; };
+		9D0BFF2560F5145F230EF718FD38339F /* SwiftKeychainWrapper-iOS14.4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftKeychainWrapper-iOS14.4.release.xcconfig"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E881C953758A7B915DF9F2D2531FFCF /* Pods-ContactList-ContactListUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactList-ContactListUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F5F43D7F75C20843BC43AD8349F8672 /* SwiftKeychainWrapper-iOS14.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SwiftKeychainWrapper-iOS14.1.modulemap"; sourceTree = "<group>"; };
+		9F689EE3CB5C002B838BFAA909399681 /* SwiftKeychainWrapper-iOS14.4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SwiftKeychainWrapper-iOS14.4-prefix.pch"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-prefix.pch"; sourceTree = "<group>"; };
+		A1CBE283DD07D130C53BD4E2F56465CC /* SwiftKeychainWrapper-iOS14.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftKeychainWrapper-iOS14.1-umbrella.h"; sourceTree = "<group>"; };
+		A2435F5E754E7B449FB9E6DA63FEF18F /* Pods-ContactList_MOCK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactList_MOCK-dummy.m"; sourceTree = "<group>"; };
+		AD9335D31EAEBEE91A2417F01CE17AC1 /* Pods-ContactList_MOCK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactList_MOCK.modulemap"; sourceTree = "<group>"; };
+		B36CE33D4187E76ED5C167613FEB0387 /* SwiftKeychainWrapper-iOS14.4-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "SwiftKeychainWrapper-iOS14.4-Info.plist"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-Info.plist"; sourceTree = "<group>"; };
+		B59C10EE17A785734E55470D2238AF5C /* Pods-ContactList_MOCK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList_MOCK.release.xcconfig"; sourceTree = "<group>"; };
+		B93B4DD4147C40542F098D045707E8A8 /* Pods-ContactList_MOCK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList_MOCK-Info.plist"; sourceTree = "<group>"; };
+		BAE9766F0B7464342A48A9A75FBEAEFD /* SwiftKeychainWrapper-iOS14.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftKeychainWrapper-iOS14.1.debug.xcconfig"; sourceTree = "<group>"; };
+		BB118A119D4A33A6DB9B654529063C2A /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftKeychainWrapper.framework; path = "SwiftKeychainWrapper-iOS14.4.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCBD476D9B28AB5C81D1EBC579AE327 /* Pods_ContactList_ContactListUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactList_ContactListUITests.framework; path = "Pods-ContactList-ContactListUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4750F74B4379EF314ECA72F35B75D54 /* Pods-ContactListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactListTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6EC292C3C1166472EE694F0471829D2 /* Pods_ContactListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContactListTests.framework; path = "Pods-ContactListTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93D15B60BA91C7C3F9A18640AEC2BB8 /* SwiftGen-iOS14.4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "SwiftGen-iOS14.4.debug.xcconfig"; path = "../SwiftGen-iOS14.4/SwiftGen-iOS14.4.debug.xcconfig"; sourceTree = "<group>"; };
+		CFC7359393A9E6D2B709DFC827C13F93 /* Pods-ContactList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ContactList-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D558F1C33759529B65B1CE732EE578AA /* Pods-ContactList_MOCK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContactList_MOCK-umbrella.h"; sourceTree = "<group>"; };
+		D912513BE6E6522064C7221668C50B3D /* KeychainWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = SwiftKeychainWrapper/KeychainWrapper.swift; sourceTree = "<group>"; };
+		D9EAC51C84670B410DAA732D3D2F52FC /* SwiftKeychainWrapper-iOS14.1-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftKeychainWrapper-iOS14.1-Info.plist"; sourceTree = "<group>"; };
+		DFA5601E8E8446E32B417DEACBD021CD /* Pods-ContactListTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactListTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5EEA8C57A679C32B57E7686AE7AEBDE /* Pods-ContactList_MOCK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList_MOCK-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC65D779A633B2F96073FC6686192EB2 /* SwiftKeychainWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftKeychainWrapper.framework; path = "SwiftKeychainWrapper-iOS14.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8344B9AC01EF6C7E344ACA3CB1F8C0 /* Pods-ContactList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContactList-acknowledgements.plist"; sourceTree = "<group>"; };
+		F12FEA3102F683EAD1BC6DD7332953E9 /* SwiftKeychainWrapper-iOS14.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SwiftKeychainWrapper-iOS14.1.release.xcconfig"; sourceTree = "<group>"; };
+		F3C780051DCFC240C3710CA99D2BDB2D /* Pods-ContactList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ContactList.modulemap"; sourceTree = "<group>"; };
+		F3F40B0A8DBF238D017EC81FA260E7D9 /* Pods-ContactList_MOCK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList_MOCK.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E251761DC13293E3F2B886183C0D4B /* Pods-ContactList-ContactListUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContactList-ContactListUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FAA21400FDD9B34D1AE848CA3291A9C1 /* KeychainWrapperSubscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainWrapperSubscript.swift; path = SwiftKeychainWrapper/KeychainWrapperSubscript.swift; sourceTree = "<group>"; };
+		FEA6C229D48BC2E074AA6229328CD4F0 /* SwiftKeychainWrapper-iOS14.4.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "SwiftKeychainWrapper-iOS14.4.modulemap"; path = "../SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4.modulemap"; sourceTree = "<group>"; };
+		FF1D6BD0158ADA3340531A44471F5679 /* Pods-ContactList-ContactListUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ContactList-ContactListUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B06D75D78D5E35F04F7FF413444DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200CA9CBF133AC678AAD2CA511B886F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E947E8990CBBE9AA7EF7B952B9ED2B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EE5B1A7073A141917B7135A1545B57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B386C950BF6CD748366C9C155FFAC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719E5C58529BE8AC17BC2B5A98FEAAD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B714BDC2648A6C807EEC527CD344B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABA142B5C8F6CBE987E6EB040A9E4B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C0122EBF21D0D3B13D4D70BD06E871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F2BFA503788ABE42AEAFE79186A119 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A67BE53A9C6C57EBEA07E71C9AF2FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E0D5FA09594CF6264E8284DA4870E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3094A234A55335076A75F7A000AFDB3F /* SwiftKeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				2534E0AF0C1A2AD70853201C9252F4FD /* KeychainItemAccessibility.swift */,
+				D912513BE6E6522064C7221668C50B3D /* KeychainWrapper.swift */,
+				FAA21400FDD9B34D1AE848CA3291A9C1 /* KeychainWrapperSubscript.swift */,
+				10569083E657454CBF967FFC94EA6785 /* SwiftKeychainWrapper.h */,
+				A9AFD9A008942F2F4A89F9AFEED7FC27 /* Support Files */,
+			);
+			name = SwiftKeychainWrapper;
+			path = SwiftKeychainWrapper;
+			sourceTree = "<group>";
+		};
+		49A6AA99FC58CD1EE3A5E42A82FB98CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				382360496053BB653B240D88B446C6EB /* SwiftGen-iOS14.1.debug.xcconfig */,
+				4311F404C4299B791FEAB8E4890104A4 /* SwiftGen-iOS14.1.release.xcconfig */,
+				C93D15B60BA91C7C3F9A18640AEC2BB8 /* SwiftGen-iOS14.4.debug.xcconfig */,
+				81BB0A4A3EFB516C420A98F2E9B73AF9 /* SwiftGen-iOS14.4.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftGen-iOS14.1";
+			sourceTree = "<group>";
+		};
+		794F7EB03756A8DAEF12E70ECEC7C6A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				964331D55D41AAB77F03A38DDEB90036 /* Pods-ContactList */,
+				842A592E7BE9405AA28CF6278041D06D /* Pods-ContactList-ContactListUITests */,
+				87AFC5887C7C4C58108B5E1E968B76A7 /* Pods-ContactList_MOCK */,
+				CB70934907CA4616B3898868D883EDA4 /* Pods-ContactListTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		842A592E7BE9405AA28CF6278041D06D /* Pods-ContactList-ContactListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B38907EC24D510E7475A9C8A5A1EF66 /* Pods-ContactList-ContactListUITests.modulemap */,
+				9E881C953758A7B915DF9F2D2531FFCF /* Pods-ContactList-ContactListUITests-acknowledgements.markdown */,
+				6F38257F2949B6E987273D585BE7000E /* Pods-ContactList-ContactListUITests-acknowledgements.plist */,
+				FF1D6BD0158ADA3340531A44471F5679 /* Pods-ContactList-ContactListUITests-dummy.m */,
+				35826306079CB741272748834A69BFFC /* Pods-ContactList-ContactListUITests-frameworks.sh */,
+				2FC0E362DFF9A0DBFEBDE426E51F825B /* Pods-ContactList-ContactListUITests-Info.plist */,
+				65C2FFE2C40F605F364CFDC3ABEBC624 /* Pods-ContactList-ContactListUITests-umbrella.h */,
+				4A7301A17BACE325EAD1C2723FCCCD98 /* Pods-ContactList-ContactListUITests.debug.xcconfig */,
+				F9E251761DC13293E3F2B886183C0D4B /* Pods-ContactList-ContactListUITests.release.xcconfig */,
+			);
+			name = "Pods-ContactList-ContactListUITests";
+			path = "Target Support Files/Pods-ContactList-ContactListUITests";
+			sourceTree = "<group>";
+		};
+		87AFC5887C7C4C58108B5E1E968B76A7 /* Pods-ContactList_MOCK */ = {
+			isa = PBXGroup;
+			children = (
+				AD9335D31EAEBEE91A2417F01CE17AC1 /* Pods-ContactList_MOCK.modulemap */,
+				4EE86EBD449BCE2069806202F93DA355 /* Pods-ContactList_MOCK-acknowledgements.markdown */,
+				E5EEA8C57A679C32B57E7686AE7AEBDE /* Pods-ContactList_MOCK-acknowledgements.plist */,
+				A2435F5E754E7B449FB9E6DA63FEF18F /* Pods-ContactList_MOCK-dummy.m */,
+				7F5A681501C3207DEC6795FCFCF011E1 /* Pods-ContactList_MOCK-frameworks.sh */,
+				B93B4DD4147C40542F098D045707E8A8 /* Pods-ContactList_MOCK-Info.plist */,
+				D558F1C33759529B65B1CE732EE578AA /* Pods-ContactList_MOCK-umbrella.h */,
+				F3F40B0A8DBF238D017EC81FA260E7D9 /* Pods-ContactList_MOCK.debug.xcconfig */,
+				B59C10EE17A785734E55470D2238AF5C /* Pods-ContactList_MOCK.release.xcconfig */,
+			);
+			name = "Pods-ContactList_MOCK";
+			path = "Target Support Files/Pods-ContactList_MOCK";
+			sourceTree = "<group>";
+		};
+		8B4900852AE05F5B7DBE1066E755B51C /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				49A6AA99FC58CD1EE3A5E42A82FB98CE /* Support Files */,
+			);
+			name = SwiftGen;
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		964331D55D41AAB77F03A38DDEB90036 /* Pods-ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				F3C780051DCFC240C3710CA99D2BDB2D /* Pods-ContactList.modulemap */,
+				CFC7359393A9E6D2B709DFC827C13F93 /* Pods-ContactList-acknowledgements.markdown */,
+				EE8344B9AC01EF6C7E344ACA3CB1F8C0 /* Pods-ContactList-acknowledgements.plist */,
+				4B5D025F1CE413C6C21FEFFE9591C23C /* Pods-ContactList-dummy.m */,
+				3AABE290E82F90FC829DFD7384564674 /* Pods-ContactList-frameworks.sh */,
+				6F38EDFA12525C8776FF0A5A3EA33CC8 /* Pods-ContactList-Info.plist */,
+				6BCAE6084A19C172EBB4DD89F659C432 /* Pods-ContactList-umbrella.h */,
+				43669D0F960F63C1FBDC9736C6E84E48 /* Pods-ContactList.debug.xcconfig */,
+				2521F23909C21BD89CB10D6B442EB914 /* Pods-ContactList.release.xcconfig */,
+			);
+			name = "Pods-ContactList";
+			path = "Target Support Files/Pods-ContactList";
+			sourceTree = "<group>";
+		};
+		98A29D6471688365A7BA632BE13AE45C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B4900852AE05F5B7DBE1066E755B51C /* SwiftGen */,
+				3094A234A55335076A75F7A000AFDB3F /* SwiftKeychainWrapper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9AFD9A008942F2F4A89F9AFEED7FC27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5F43D7F75C20843BC43AD8349F8672 /* SwiftKeychainWrapper-iOS14.1.modulemap */,
+				39EBC5BFDB0813D582F0FCBA679274F6 /* SwiftKeychainWrapper-iOS14.1-dummy.m */,
+				D9EAC51C84670B410DAA732D3D2F52FC /* SwiftKeychainWrapper-iOS14.1-Info.plist */,
+				385A15BB74D7325D9B2E9521E51A9E12 /* SwiftKeychainWrapper-iOS14.1-prefix.pch */,
+				A1CBE283DD07D130C53BD4E2F56465CC /* SwiftKeychainWrapper-iOS14.1-umbrella.h */,
+				BAE9766F0B7464342A48A9A75FBEAEFD /* SwiftKeychainWrapper-iOS14.1.debug.xcconfig */,
+				F12FEA3102F683EAD1BC6DD7332953E9 /* SwiftKeychainWrapper-iOS14.1.release.xcconfig */,
+				FEA6C229D48BC2E074AA6229328CD4F0 /* SwiftKeychainWrapper-iOS14.4.modulemap */,
+				85FCBB773E1787FFC977F7C7860B8134 /* SwiftKeychainWrapper-iOS14.4-dummy.m */,
+				B36CE33D4187E76ED5C167613FEB0387 /* SwiftKeychainWrapper-iOS14.4-Info.plist */,
+				9F689EE3CB5C002B838BFAA909399681 /* SwiftKeychainWrapper-iOS14.4-prefix.pch */,
+				83B1630EC594CDB765B5B05134E8C233 /* SwiftKeychainWrapper-iOS14.4-umbrella.h */,
+				8F575BDDEE86C1CC5BC37DA09EFF10EE /* SwiftKeychainWrapper-iOS14.4.debug.xcconfig */,
+				9D0BFF2560F5145F230EF718FD38339F /* SwiftKeychainWrapper-iOS14.4.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftKeychainWrapper-iOS14.1";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C583A872815460DF980D1CC278F7FF79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D71B728DE4B5AEC24E930A9291821 /* Pods_ContactList.framework */,
+				BDCBD476D9B28AB5C81D1EBC579AE327 /* Pods_ContactList_ContactListUITests.framework */,
+				463B0DF88C86EA8AA92AD98A8E563AA6 /* Pods_ContactList_MOCK.framework */,
+				C6EC292C3C1166472EE694F0471829D2 /* Pods_ContactListTests.framework */,
+				EC65D779A633B2F96073FC6686192EB2 /* SwiftKeychainWrapper.framework */,
+				BB118A119D4A33A6DB9B654529063C2A /* SwiftKeychainWrapper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB70934907CA4616B3898868D883EDA4 /* Pods-ContactListTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF0CBC3EC7DDAD59EAC4C8BEEA5F7E /* Pods-ContactListTests.modulemap */,
+				4541D7ECF0F07651F0145D80DD816180 /* Pods-ContactListTests-acknowledgements.markdown */,
+				DFA5601E8E8446E32B417DEACBD021CD /* Pods-ContactListTests-acknowledgements.plist */,
+				9B405CE724CF00931D01FB8D3EB841A1 /* Pods-ContactListTests-dummy.m */,
+				72D531F58F108C869FFA8CF71042E9FC /* Pods-ContactListTests-frameworks.sh */,
+				2BDE3E42A7A5D542B9B2B7139D043216 /* Pods-ContactListTests-Info.plist */,
+				1BB0F144DB6B847C14FFE8CFC2E29B08 /* Pods-ContactListTests-umbrella.h */,
+				72D7FB12AD86256F3C31D84244EEB306 /* Pods-ContactListTests.debug.xcconfig */,
+				C4750F74B4379EF314ECA72F35B75D54 /* Pods-ContactListTests.release.xcconfig */,
+			);
+			name = "Pods-ContactListTests";
+			path = "Target Support Files/Pods-ContactListTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				98A29D6471688365A7BA632BE13AE45C /* Pods */,
+				C583A872815460DF980D1CC278F7FF79 /* Products */,
+				794F7EB03756A8DAEF12E70ECEC7C6A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		111C95C97332750836FDF7EEC0B81131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4A7D54ABC7FC068E277CBA750FE7AA /* Pods-ContactList-ContactListUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E1BC19F55D40FB250DED4A5882718B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD7D08A4DD4C23542F3E1264115442C /* SwiftKeychainWrapper-iOS14.4-umbrella.h in Headers */,
+				B51CD89A634890701516F29F900DD3B4 /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FA278291CEEE3FCC6D0E3CEAEFB4196 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B00248D3BFD9294BC3C17B04B81A1BF /* Pods-ContactListTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21A7A0EE9C11A2251BF45C7930B5F3D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42D4E1F3899123C50F93D0B645556CB /* Pods-ContactList-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24759C8A4D6AB6B83D77A64C3EE50125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C0D746B7094B20BE1739FDFC3415FB /* Pods-ContactList_MOCK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		683A99A4256537DF8E52F714CEA20A2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3B10E84B281108B180AC5810CDD7ED /* SwiftKeychainWrapper-iOS14.1-umbrella.h in Headers */,
+				875D6C1A07DEF55E443ADF89AA2AD285 /* SwiftKeychainWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0D70D3110724EB22E0C9E3CDFE468D94 /* Pods-ContactList-ContactListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9A0854C5D7F52B932F80A328BD0F57 /* Build configuration list for PBXNativeTarget "Pods-ContactList-ContactListUITests" */;
+			buildPhases = (
+				111C95C97332750836FDF7EEC0B81131 /* Headers */,
+				ADC345DB8447FA28850D912C5799ED60 /* Sources */,
+				F3C0122EBF21D0D3B13D4D70BD06E871 /* Frameworks */,
+				6C5998FFE92E6DC1ADA97E84A1B1075F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FBCFFCD3D169BBA117C30A0A98143A8 /* PBXTargetDependency */,
+				635B09F492C1F6954CFB5CF2C87B8F19 /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactList-ContactListUITests";
+			productName = "Pods-ContactList-ContactListUITests";
+			productReference = BDCBD476D9B28AB5C81D1EBC579AE327 /* Pods_ContactList_ContactListUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46B8EC84B041A96FCDF07AC1AC8F34FC /* Pods-ContactList_MOCK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F65804489144F5B427EC8D595FAB1F6 /* Build configuration list for PBXNativeTarget "Pods-ContactList_MOCK" */;
+			buildPhases = (
+				24759C8A4D6AB6B83D77A64C3EE50125 /* Headers */,
+				D57022F5C4DA7543DECEF4AF92AD5164 /* Sources */,
+				45B06D75D78D5E35F04F7FF413444DF2 /* Frameworks */,
+				53B19A3E5C18923E8B06801E7CE728B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA2A3424055B055E834B35309C96E9F3 /* PBXTargetDependency */,
+				09E18E8D23BD865AA7500BCE26AF2EF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactList_MOCK";
+			productName = "Pods-ContactList_MOCK";
+			productReference = 463B0DF88C86EA8AA92AD98A8E563AA6 /* Pods_ContactList_MOCK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C6D4E71EA537FCFB28B7D16C120473C /* Pods-ContactListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE722C4159B7310CAD3434A66F98FE4F /* Build configuration list for PBXNativeTarget "Pods-ContactListTests" */;
+			buildPhases = (
+				1FA278291CEEE3FCC6D0E3CEAEFB4196 /* Headers */,
+				949D66772EB6303AE239D06B7C634E78 /* Sources */,
+				C7B714BDC2648A6C807EEC527CD344B7 /* Frameworks */,
+				EC67BC929C05B8BAAF5D8E7519728FB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA7CFCEB3311253805564B15E9CDB92C /* PBXTargetDependency */,
+				6ABBB54906C17468DAD9A9674CE07C96 /* PBXTargetDependency */,
+				956105C65CBAB85D8165799770C41247 /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactListTests";
+			productName = "Pods-ContactListTests";
+			productReference = C6EC292C3C1166472EE694F0471829D2 /* Pods_ContactListTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		783E652C2915E53B8EFA4D6267ADAA2A /* SwiftKeychainWrapper-iOS14.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B823DA701FBFCF42737786BB61F0F168 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper-iOS14.1" */;
+			buildPhases = (
+				683A99A4256537DF8E52F714CEA20A2C /* Headers */,
+				46B0FF6776C79519F53570194B718179 /* Sources */,
+				B0B386C950BF6CD748366C9C155FFAC8 /* Frameworks */,
+				48EA12661D3C8388A11543D98F42BAEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftKeychainWrapper-iOS14.1";
+			productName = "SwiftKeychainWrapper-iOS14.1";
+			productReference = EC65D779A633B2F96073FC6686192EB2 /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80C56D67DD9173D475134B70A56E7E2F /* Pods-ContactList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6F424C49F73258774E525B5BBC39AE /* Build configuration list for PBXNativeTarget "Pods-ContactList" */;
+			buildPhases = (
+				21A7A0EE9C11A2251BF45C7930B5F3D3 /* Headers */,
+				09A58535ECE73FEDA3AD194E5396B647 /* Sources */,
+				F8A67BE53A9C6C57EBEA07E71C9AF2FF /* Frameworks */,
+				6055D3731CC127BB1BD739E8B40C8032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBCF2DAC060C0CFCFE139CB127EDA997 /* PBXTargetDependency */,
+				17F106D443A3E671C132899286B35683 /* PBXTargetDependency */,
+			);
+			name = "Pods-ContactList";
+			productName = "Pods-ContactList";
+			productReference = 6F7D71B728DE4B5AEC24E930A9291821 /* Pods_ContactList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C265D4732C96EAA41AB2C798F526E5B5 /* SwiftKeychainWrapper-iOS14.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2D56AAC6E6E718D4758E89F22977F3 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper-iOS14.4" */;
+			buildPhases = (
+				17E1BC19F55D40FB250DED4A5882718B /* Headers */,
+				65161941DBEE0A7CFAEB7F163FB6FB05 /* Sources */,
+				8E947E8990CBBE9AA7EF7B952B9ED2B8 /* Frameworks */,
+				975DD20B1B68EF921FDD76885692695A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftKeychainWrapper-iOS14.4";
+			productName = "SwiftKeychainWrapper-iOS14.4";
+			productReference = BB118A119D4A33A6DB9B654529063C2A /* SwiftKeychainWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C583A872815460DF980D1CC278F7FF79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80C56D67DD9173D475134B70A56E7E2F /* Pods-ContactList */,
+				0D70D3110724EB22E0C9E3CDFE468D94 /* Pods-ContactList-ContactListUITests */,
+				46B8EC84B041A96FCDF07AC1AC8F34FC /* Pods-ContactList_MOCK */,
+				6C6D4E71EA537FCFB28B7D16C120473C /* Pods-ContactListTests */,
+				970597F8096BA8D1E5D02B98ADB18387 /* SwiftGen-iOS14.1 */,
+				B275628819432CFABED7CF8C4CFD2570 /* SwiftGen-iOS14.4 */,
+				783E652C2915E53B8EFA4D6267ADAA2A /* SwiftKeychainWrapper-iOS14.1 */,
+				C265D4732C96EAA41AB2C798F526E5B5 /* SwiftKeychainWrapper-iOS14.4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48EA12661D3C8388A11543D98F42BAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B19A3E5C18923E8B06801E7CE728B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6055D3731CC127BB1BD739E8B40C8032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C5998FFE92E6DC1ADA97E84A1B1075F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975DD20B1B68EF921FDD76885692695A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC67BC929C05B8BAAF5D8E7519728FB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A58535ECE73FEDA3AD194E5396B647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A245BA6C96D823D5E6C6DDDC9C078A2 /* Pods-ContactList-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B0FF6776C79519F53570194B718179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF245AAD9F9A92BB0E499584F1A6BDE /* KeychainItemAccessibility.swift in Sources */,
+				EEBDC183BE42A4743D687E97F68DDAB2 /* KeychainWrapper.swift in Sources */,
+				6B359F1B83942DEFEBC774485BA566C4 /* KeychainWrapperSubscript.swift in Sources */,
+				8BA5D2AAAE83942E35A17DE91C302C82 /* SwiftKeychainWrapper-iOS14.1-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65161941DBEE0A7CFAEB7F163FB6FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE7E40364D5D55404E775699C3ED654 /* KeychainItemAccessibility.swift in Sources */,
+				11F3779CAF6919A64E6D5EE3479C42C0 /* KeychainWrapper.swift in Sources */,
+				5C2F49948395C3D43C21975E820B041F /* KeychainWrapperSubscript.swift in Sources */,
+				EC757D2B46B70C34EB7A6429F78D20FB /* SwiftKeychainWrapper-iOS14.4-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		949D66772EB6303AE239D06B7C634E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41691F03B66A71F6BB244E1F8369F43 /* Pods-ContactListTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC345DB8447FA28850D912C5799ED60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A70214A94AC33F76D871F2A61D748FA /* Pods-ContactList-ContactListUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D57022F5C4DA7543DECEF4AF92AD5164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB0358217AD6E5A8AC0CB0000F460A2 /* Pods-ContactList_MOCK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09E18E8D23BD865AA7500BCE26AF2EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftKeychainWrapper-iOS14.4";
+			target = C265D4732C96EAA41AB2C798F526E5B5 /* SwiftKeychainWrapper-iOS14.4 */;
+			targetProxy = E1B179BCE700788A371F284CB3239910 /* PBXContainerItemProxy */;
+		};
+		17F106D443A3E671C132899286B35683 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftKeychainWrapper-iOS14.1";
+			target = 783E652C2915E53B8EFA4D6267ADAA2A /* SwiftKeychainWrapper-iOS14.1 */;
+			targetProxy = B98034A6009CAD53B5C8E4D26E83F1C6 /* PBXContainerItemProxy */;
+		};
+		5FBCFFCD3D169BBA117C30A0A98143A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftGen-iOS14.1";
+			target = 970597F8096BA8D1E5D02B98ADB18387 /* SwiftGen-iOS14.1 */;
+			targetProxy = F80DEECA5BAFBB8B95DA2DFF2D762196 /* PBXContainerItemProxy */;
+		};
+		635B09F492C1F6954CFB5CF2C87B8F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftKeychainWrapper-iOS14.1";
+			target = 783E652C2915E53B8EFA4D6267ADAA2A /* SwiftKeychainWrapper-iOS14.1 */;
+			targetProxy = 36155797B180285710602310A6B00988 /* PBXContainerItemProxy */;
+		};
+		6ABBB54906C17468DAD9A9674CE07C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftGen-iOS14.1";
+			target = 970597F8096BA8D1E5D02B98ADB18387 /* SwiftGen-iOS14.1 */;
+			targetProxy = B2BCFBAB800A2D5DA5BD468EDBAC34B1 /* PBXContainerItemProxy */;
+		};
+		956105C65CBAB85D8165799770C41247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftKeychainWrapper-iOS14.1";
+			target = 783E652C2915E53B8EFA4D6267ADAA2A /* SwiftKeychainWrapper-iOS14.1 */;
+			targetProxy = B86694CCF617DCEA7CACC95488CA0F54 /* PBXContainerItemProxy */;
+		};
+		AA2A3424055B055E834B35309C96E9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftGen-iOS14.4";
+			target = B275628819432CFABED7CF8C4CFD2570 /* SwiftGen-iOS14.4 */;
+			targetProxy = 07A33F5539A673C0730B1B6BD299A4D3 /* PBXContainerItemProxy */;
+		};
+		AA7CFCEB3311253805564B15E9CDB92C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ContactList";
+			target = 80C56D67DD9173D475134B70A56E7E2F /* Pods-ContactList */;
+			targetProxy = 0B8E33737816575892C9229FFD526236 /* PBXContainerItemProxy */;
+		};
+		CBCF2DAC060C0CFCFE139CB127EDA997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftGen-iOS14.1";
+			target = 970597F8096BA8D1E5D02B98ADB18387 /* SwiftGen-iOS14.1 */;
+			targetProxy = A2555C232A2FAF0BCBA6E5FA8EF553F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0238CED65A8AA2D74DA53F7DB13179B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4311F404C4299B791FEAB8E4890104A4 /* SwiftGen-iOS14.1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A17E62C827C2C189E6CE9437354C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7301A17BACE325EAD1C2723FCCCD98 /* Pods-ContactList-ContactListUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList-ContactListUITests/Pods-ContactList-ContactListUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList-ContactListUITests/Pods-ContactList-ContactListUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44A84F3101ED74B0D95894068595E5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59C10EE17A785734E55470D2238AF5C /* Pods-ContactList_MOCK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList_MOCK/Pods-ContactList_MOCK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList_MOCK/Pods-ContactList_MOCK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F5AA992F008CE1009C81DFC2C3F8427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0BFF2560F5145F230EF718FD38339F /* SwiftKeychainWrapper-iOS14.4.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		625376FC8837DE59F0132A66E862B607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E251761DC13293E3F2B886183C0D4B /* Pods-ContactList-ContactListUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList-ContactListUITests/Pods-ContactList-ContactListUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList-ContactListUITests/Pods-ContactList-ContactListUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68BD7AEB7C5CEB9DFB963A34DE0D5D57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE9766F0B7464342A48A9A75FBEAEFD /* SwiftKeychainWrapper-iOS14.1.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71D4B85E3DD105EC190BF2BC26B7A48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F40B0A8DBF238D017EC81FA260E7D9 /* Pods-ContactList_MOCK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList_MOCK/Pods-ContactList_MOCK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList_MOCK/Pods-ContactList_MOCK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BEB20D35FAE243E8735C837CCD871BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4750F74B4379EF314ECA72F35B75D54 /* Pods-ContactListTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListTests/Pods-ContactListTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListTests/Pods-ContactListTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		922C8359306D0A3B8ED7131B46F5A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A2AA2C6D762B096B327ABB1C226DEB33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D7FB12AD86256F3C31D84244EEB306 /* Pods-ContactListTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactListTests/Pods-ContactListTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactListTests/Pods-ContactListTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B601CD6B35D101AD440032A709B395FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2521F23909C21BD89CB10D6B442EB914 /* Pods-ContactList.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList/Pods-ContactList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList/Pods-ContactList.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA131553A1FFC73E3959915D4B010886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382360496053BB653B240D88B446C6EB /* SwiftGen-iOS14.1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF98257AA93A6849749FD6CB0F2D4E2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F575BDDEE86C1CC5BC37DA09EFF10EE /* SwiftKeychainWrapper-iOS14.4.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.4/SwiftKeychainWrapper-iOS14.4.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D832C8FC372204ACDCC9FE9C0FC41919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB2B18D794C7909B375114ED68A80525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93D15B60BA91C7C3F9A18640AEC2BB8 /* SwiftGen-iOS14.4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E133291218B4FCB553A0234D066C35F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12FEA3102F683EAD1BC6DD7332953E9 /* SwiftKeychainWrapper-iOS14.1.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftKeychainWrapper-iOS14.1/SwiftKeychainWrapper-iOS14.1.modulemap";
+				PRODUCT_MODULE_NAME = SwiftKeychainWrapper;
+				PRODUCT_NAME = SwiftKeychainWrapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC64B685DC86F764EFC15589540AB85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43669D0F960F63C1FBDC9736C6E84E48 /* Pods-ContactList.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ContactList/Pods-ContactList-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ContactList/Pods-ContactList.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F520EA40882735F5EE2481284F969778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BB0A4A3EFB516C420A98F2E9B73AF9 /* SwiftGen-iOS14.4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FA692C0AAC609B2BD49E9D524D49B99 /* Build configuration list for PBXAggregateTarget "SwiftGen-iOS14.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA131553A1FFC73E3959915D4B010886 /* Debug */,
+				0238CED65A8AA2D74DA53F7DB13179B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922C8359306D0A3B8ED7131B46F5A721 /* Debug */,
+				D832C8FC372204ACDCC9FE9C0FC41919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485793F9F5480EE87A2ECF6B7F24C9CA /* Build configuration list for PBXAggregateTarget "SwiftGen-iOS14.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B18D794C7909B375114ED68A80525 /* Debug */,
+				F520EA40882735F5EE2481284F969778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F65804489144F5B427EC8D595FAB1F6 /* Build configuration list for PBXNativeTarget "Pods-ContactList_MOCK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71D4B85E3DD105EC190BF2BC26B7A48E /* Debug */,
+				44A84F3101ED74B0D95894068595E5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6F424C49F73258774E525B5BBC39AE /* Build configuration list for PBXNativeTarget "Pods-ContactList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC64B685DC86F764EFC15589540AB85F /* Debug */,
+				B601CD6B35D101AD440032A709B395FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2D56AAC6E6E718D4758E89F22977F3 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper-iOS14.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF98257AA93A6849749FD6CB0F2D4E2A /* Debug */,
+				4F5AA992F008CE1009C81DFC2C3F8427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9A0854C5D7F52B932F80A328BD0F57 /* Build configuration list for PBXNativeTarget "Pods-ContactList-ContactListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A17E62C827C2C189E6CE9437354C91 /* Debug */,
+				625376FC8837DE59F0132A66E862B607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B823DA701FBFCF42737786BB61F0F168 /* Build configuration list for PBXNativeTarget "SwiftKeychainWrapper-iOS14.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68BD7AEB7C5CEB9DFB963A34DE0D5D57 /* Debug */,
+				E133291218B4FCB553A0234D066C35F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE722C4159B7310CAD3434A66F98FE4F /* Build configuration list for PBXNativeTarget "Pods-ContactListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2AA2C6D762B096B327ABB1C226DEB33 /* Debug */,
+				8BEB20D35FAE243E8735C837CCD871BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

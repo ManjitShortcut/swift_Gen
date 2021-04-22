@@ -1,0 +1,14 @@
+strings:
+  inputs: ContactList/Base.lproj
+  filter: .+\.strings$
+  outputs:
+    - templateName: structured-swift5
+      output: ContactList/SwiftGen/Strings.swift
+xcassets:
+  inputs:
+    - ContactList/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: ContactList/SwiftGen/Assets.swift
+
+

@@ -1,0 +1,6 @@
+framework module Pods_ContactList_MOCK {
+  umbrella header "Pods-ContactList_MOCK-umbrella.h"
+
+  export *
+  module * { export * }
+}

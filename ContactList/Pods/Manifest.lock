@@ -1,0 +1,20 @@
+PODS:
+  - SwiftGen (6.4.0)
+  - SwiftKeychainWrapper (4.0.1)
+
+DEPENDENCIES:
+  - SwiftGen (~> 6.0)
+  - SwiftKeychainWrapper (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - SwiftGen
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  SwiftGen: 67860cc7c3cfc2ed25b9b74cfd55495fc89f9108
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+
+PODFILE CHECKSUM: 46358b7fcaf33bad5ffffa8590ad1e63ac78679f
+
+COCOAPODS: 1.9.3
